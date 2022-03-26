@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const dumData = require('../dummyData');
 
+//Handles requests to /users
+
 
 router.get('/', (req, res) => {
     res.json(dumData.usersData);
